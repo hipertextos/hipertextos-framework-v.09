@@ -290,20 +290,16 @@ address {
 
 /* Globals */
 
-.prose, 
-.tj {
+.prose {
 	text-align: justify;
 }
-.verse, 
-.tl {
+.verse {
 	text-align: left;
 }
-.antiverse, 
-.tr {
+.antiverse {
 	text-align: right;
 }
-.universe, 
-.tc {
+.universe {
 	text-align: center;
 }
 .truncate {
@@ -941,7 +937,7 @@ progress::-moz-progress-bar {
 meter::-moz-meter-bar {  
 	background: green;
 }
-progress.blck, meter.blck {
+progress.block, meter.block {
 	clear: both;
 	width: 100%;
 }
@@ -1109,8 +1105,8 @@ nav .form-search {
     width: auto;
 	}
 	nav .form-search input,
-  nav .form-search input.terms,
-  nav .form-search input.terms:focus {
+  	nav .form-search input.terms,
+  	nav .form-search input.terms:focus {
 		width: 85%; 
 	}
 	nav .form-search input.search {
